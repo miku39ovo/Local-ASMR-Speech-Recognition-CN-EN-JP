@@ -41,8 +41,8 @@
 ## 快速开始（源码运行）
 
 ```bat
-git clone https://github.com/<your-name>/ASMR2LRC.git
-cd ASMR2LRC
+git clone https://github.com/miku39ovo/Local-ASMR-Speech-Recognition-CN-EN-JP.git
+cd Local-ASMR-Speech-Recognition-CN-EN-JP
 
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
