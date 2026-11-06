@@ -49,7 +49,9 @@ class MainWindow(QMainWindow):
         self._current_dir: Path | None = None
         self._loading = True
         self._applying_preset = False
-        self.setWindowTitle(f"ASMR2LRC  {__version__}  ·  本地日语/英语/中文 ASMR 转 LRC")
+        self.setWindowTitle(
+            f"ASMR2LRC  {__version__}  ·  本地音视频转文字 · 日语/英语/中文 · LRC / TXT / SRT"
+        )
         self.resize(1240, 900)
         self._fit_to_screen()
         self.setAcceptDrops(True)

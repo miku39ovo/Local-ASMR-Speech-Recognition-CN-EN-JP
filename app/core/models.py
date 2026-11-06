@@ -31,7 +31,7 @@ MODEL_SPECS: dict[str, ModelSpec] = {
     "anime-whisper-ct2-fp16": ModelSpec(
         key="anime-whisper-ct2-fp16",
         repo="quantumcookie/anime-whisper-ct2-fp16",
-        label="Anime-Whisper（日语 ASMR 推荐）",
+        label="Anime-Whisper（日语动漫/音声推荐）",
         lang="ja",
         size_gb=1.5,
         note="动漫/游戏语音微调，断句自然、带标点；VAD 分段补偿时间轴",
