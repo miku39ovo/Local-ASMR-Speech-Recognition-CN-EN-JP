@@ -58,8 +58,8 @@ GPU 加速、全程离线、不上传任何文件。
 ## 快速开始（源码运行）
 
 ```bat
-git clone https://github.com/miku39ovo/Local-ASMR-Speech-Recognition-CN-EN-JP.git
-cd Local-ASMR-Speech-Recognition-CN-EN-JP
+git clone https://github.com/miku39ovo/Local-Audio-Video-to-LRC-SRT.git
+cd Local-Audio-Video-to-LRC-SRT
 
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
